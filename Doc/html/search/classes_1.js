@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tumama_0',['TUMama',['../class_t_u_mama.html',1,'']]]
+  ['tumama_0',['TUMama',['../classTUMama.html',1,'']]]
 ];
