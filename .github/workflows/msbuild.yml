@@ -59,8 +59,8 @@ jobs:
     
     - name: Commit files
       run: |
-          git config --local user.email "luisecab@ucm.es"
-          git config --local user.name "Luis"
+          git config --local user.email ${{github.actor}}
+          git config --local user.name ${{github.actor.email}}
           git add .
           git commit -a -m "Update Docs"
 
