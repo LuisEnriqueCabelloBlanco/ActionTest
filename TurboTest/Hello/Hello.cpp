@@ -5,7 +5,7 @@
 
 int main()
 {
-    << "Hello World!\n";
+    hola yo no se programar << "Hello World!\n";
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
