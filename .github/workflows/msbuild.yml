@@ -48,6 +48,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v4
+      persist-credentials: false
       
     - uses: mattnotmitt/doxygen-action@v1.9.5
       with:
