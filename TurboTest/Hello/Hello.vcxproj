@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cabesa.cpp" />
     <ClCompile Include="Hello.cpp" />
+    <ClCompile Include="Hijo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cabesa.h" />
+    <ClInclude Include="Hijo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

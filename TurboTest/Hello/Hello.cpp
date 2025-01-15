@@ -3,6 +3,11 @@
 
 #include <iostream>
 
+
+/**
+ * @brief el punto de entrada al programa
+ * @return exito del programa 
+ */
 int main()
 {
     std::cout<< "Hello World!\nAhora ya se programar!!!!!!!";

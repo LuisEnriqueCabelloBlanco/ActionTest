@@ -42,3 +42,35 @@ jobs:
       # Add additional options to the MSBuild command line here (like platform or verbosity level).
       # See https://docs.microsoft.com/visualstudio/msbuild/msbuild-command-line-reference
       run: msbuild /m /p:Configuration=${{env.BUILD_CONFIGURATION}} ${{env.SOLUTION_FILE_PATH}}
+  
+  doc:
+    runs-on: ubuntu-latest
+
+    steps:
+      uses: actions/checkout@v4
+    
+    - name: Generate Docs
+      uses: mattnotmitt/doxygen-action@v1.9.5
+        with:
+          working-directory: '/Doc'
+          doxyfile-path: 'docs/Doxygen'
+    
+    - name: Commit files
+        run: |
+          git config --local user.email "luisecab@ucm.es"
+          git config --local user.name "Luis"
+          git commit -a -m "Update Docs"
+
+    - name: Push Chnages
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+
+
+      
+
+
+      
