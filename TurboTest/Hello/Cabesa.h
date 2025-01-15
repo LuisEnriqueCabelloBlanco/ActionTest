@@ -3,6 +3,8 @@
 /**
  * @class
  * @brief Encargada de hacer las empanadas
+ * 
+ * Manufactura las mejores empanadas del mundo es una locura
  */
 class TUMama {
 	/**
