@@ -61,6 +61,7 @@ jobs:
       run: |
           git config --local user.email "luisecab@ucm.es"
           git config --local user.name "Luis"
+          git add .
           git commit -a -m "Update Docs"
 
     - name: Push Chnages
