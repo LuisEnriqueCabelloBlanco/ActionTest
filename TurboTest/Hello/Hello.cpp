@@ -5,7 +5,7 @@
 
 
 /**
- * @brief el punto de entrada al programa
+ * @brief el punto de entrada al programa 
  * @return exito del programa 
  */
 int main()

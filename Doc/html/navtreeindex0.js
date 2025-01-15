@@ -1,0 +1,20 @@
+var NAVTREEINDEX0 =
+{
+"_cabesa_8h_source.html":[1,0,0,0,0],
+"_hijo_8h_source.html":[1,0,0,0,1],
+"annotated.html":[0,0],
+"class_hijo.html":[0,0,0],
+"class_t_u_mama.html":[0,0,1],
+"class_t_u_mama.html#a379b70d8d21045a204f28ef819fcea1d":[0,0,1,1],
+"class_t_u_mama.html#a95eb49603cf082b8599d581024a34b1c":[0,0,1,0],
+"classes.html":[0,1],
+"dir_4e74ade15104e55e830b8852f5b92374.html":[1,0,0],
+"dir_e3cc3fb31e80f32a6f21b04376de3d14.html":[1,0,0,0],
+"files.html":[1,0],
+"functions.html":[0,3,0],
+"functions_func.html":[0,3,1],
+"functions_vars.html":[0,3,2],
+"hierarchy.html":[0,2],
+"index.html":[],
+"pages.html":[]
+};
