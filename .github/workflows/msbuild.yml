@@ -55,7 +55,7 @@ jobs:
     - name: Generate Docs
       uses: mattnotmitt/doxygen-action@v1.9.5
       with:
-        doxyfile-path: './Doc/Doxyfile'
+        doxyfile-path: './Doxyfile'
         working-directory: './Doc'
     
     - name: Commit files
