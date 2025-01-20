@@ -46,7 +46,7 @@ jobs:
   doc:
     permissions:
       contents: write
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     
     steps:
 
@@ -56,7 +56,7 @@ jobs:
       uses: mattnotmitt/doxygen-action@v1.9.5
       with:
         doxyfile-path: './Doc/Doxyfile'
-        woring-dierctory: './Doc/'
+        working-directory: './Doc/'
     
     - name: Commit files
       run: |
