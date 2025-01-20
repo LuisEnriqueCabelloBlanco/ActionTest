@@ -56,7 +56,7 @@ jobs:
       uses: mattnotmitt/doxygen-action@v1.9.5
       with:
         doxyfile-path: './Doc/Doxyfile'
-        working-directory: './Doc/'
+        working-directory: './Doc'
     
     - name: Commit files
       run: |
