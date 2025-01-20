@@ -4,7 +4,7 @@
  * @class
  * @brief Encargada de hacer las empanadas
  * 
- * Manufactura las mejores empanadas del mundo es una locura
+ * Manufactura las mejores empanadas del mundo es una locura si lees esto no me juzgues esto era una prueba
  */
 class TUMama {
 	/**
